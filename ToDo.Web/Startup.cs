@@ -54,6 +54,8 @@
                 app.UseHsts();
             }
 
+            app.UseCors("AllowAllOrigins");
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
