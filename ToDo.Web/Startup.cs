@@ -9,12 +9,19 @@
 
     public class Startup
     {
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
+
+
+        // New space added
+
+
         public Startup(IConfiguration configuration)
         {
             this.Configuration = configuration;
